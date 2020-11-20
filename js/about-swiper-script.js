@@ -1,15 +1,6 @@
 "use strict";
-//
-// const galleryThumbs = new Swiper('.gallery-thumbs', {
-//     spaceBetween: 30,
-//     slidesPerView: 4,
-//     slideToClickedSlide: true,
-//     freeMode: true,
-//     watchSlidesVisibility: true,
-//     watchSlidesProgress: true,
-// });
 
-const galleryTop = new Swiper('.gallery-top', {
+new Swiper('.gallery-top', {
     loop: true,
     navigation: {
         nextEl: '.swiper-custom-button--right',
@@ -30,6 +21,5 @@ const galleryTop = new Swiper('.gallery-top', {
         enabled: true,
         onlyInViewport: true,
     },
-
 });
 
