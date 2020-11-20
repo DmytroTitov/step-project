@@ -1,0 +1,41 @@
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.main-nav__item {
+  margin-right: 25px;
+}
+
+.main-nav__link {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  font-weight: var(--main-fw);
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.2s linear;
+}
+
+.main-nav__link:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 46px;
+  opacity: 0;
+  background-color: var(--hallmark-color);
+  transition: opacity 0.2s linear;
+}
+
+.main-nav__link:hover {
+  color: var(--hallmark-color);
+}
+
+.main-nav__link:hover:after {
+  opacity: 1;
+}

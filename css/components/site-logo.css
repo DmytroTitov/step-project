@@ -1,0 +1,31 @@
+.site-logo {
+  text-decoration: none;
+}
+
+.site-logo__icon {
+  width: 58px;
+  height: 67px;
+  margin-right: 6px;
+  font-size: 40px;
+  line-height: 31px;
+  font-weight: var(--main-fw);
+  color: var(--light-color);
+  text-transform: uppercase;
+  background-color: var(--hallmark-color);
+  clip-path: polygon(0 30%, 50% 0, 100% 30%, 100% 70%, 50% 100%, 0 70%);
+}
+
+.site-logo__text {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: var(--normal-fw);
+  color: var(--light-color);
+}
+
+.site-logo__text--hallmark {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: var(--main-fw);
+  color: var(--hallmark-color);
+  text-transform: capitalize;
+}

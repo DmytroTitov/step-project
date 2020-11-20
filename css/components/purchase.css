@@ -1,0 +1,32 @@
+.purchase-wrapper {
+  background: no-repeat fixed center/cover url(../../img/backgrounds/purchase-bg.jpg);
+}
+
+.purchase-overlay {
+  background-color: rgba(0, 0, 0, .78);
+}
+
+.purchase {
+  text-align: center;
+  padding-top: 129px;
+  padding-bottom: 128px;
+}
+
+.purchase > a {
+  display: inline-block;
+}
+
+.purchase-title {
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--hallmark-color);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.purchase-description {
+  margin-bottom: 68px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #D8D8D8;
+}

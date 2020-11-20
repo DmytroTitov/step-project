@@ -1,0 +1,30 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.features-item {
+  height: 360px;
+  flex-direction: column;
+  padding-bottom: 103px;
+}
+
+.features-item:nth-child(odd) {
+  padding-top: 87px;
+  color: var(--hallmark-color);
+  background-color: #1c2a33;
+}
+
+.features-item:nth-child(even) {
+  padding-top: 97px;
+  color: var(--light-color);
+  background-color: var(--hallmark-color);
+}
+
+.features-item__text {
+  font-weight: var(--main-fw);
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+

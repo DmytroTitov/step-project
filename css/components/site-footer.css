@@ -1,0 +1,31 @@
+.site-footer {
+  padding: 45px 0;
+  text-align: center;
+  background-color: #22353F;
+}
+
+.site-footer__legal {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #AEAEAE;
+}
+
+.site-footer__legal-link {
+  display: inline-block;
+  position: relative;
+  margin-right: 13px;
+  text-decoration: none;
+  color: var(--hallmark-color);
+}
+
+.site-footer__legal-link::after {
+  position: absolute;
+  bottom: 6px;
+  left: 66px;
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  content: '';
+  background-color: #AEAEAE;
+}

@@ -1,0 +1,17 @@
+.section-title {
+  font-weight: var(--normal-fw);
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #4E4E4E;
+}
+
+.section-title:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 75px;
+  margin: 24px auto 70px;
+  background-color: var(--hallmark-color);
+  box-shadow: 12px 4px 0 0 var(--hallmark-color);
+}

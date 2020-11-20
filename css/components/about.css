@@ -1,0 +1,80 @@
+.about-wrapper {
+  background: no-repeat fixed center/cover url(../../img/backgrounds/say-about-bg.jpg);
+}
+
+.about-overlay {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.about {
+  position: relative;
+  text-align: center;
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+.about-title {
+  color: var(--light-color);
+}
+
+.person-descr::before {
+  content: '';
+  display: block;
+  width: 44px;
+  height: 31px;
+  margin: 0 auto 30px;
+  background-image: url("../../img/icons/green-quotes.png");
+}
+
+.person-descr {
+  margin-bottom: 26px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #bbb;
+}
+
+.person-name {
+  font-weight: var(--main-fw);
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: var(--hallmark-color);
+}
+
+.person-occupation {
+  margin-bottom: 33px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 27px;
+  color: #bbb;
+}
+
+.person-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 165px;
+  height: 165px;
+  background-color: rgba(31, 218, 181, .2);
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.person-img {
+  width: 143px;
+  height: 142px;
+  border-radius: 50%;
+}
+
+.person-img-container--min {
+  width: 67px;
+  height: 67px;
+  border: none;
+}
+
+.person-img--min {
+  width: 61px;
+  height: 61px;
+}

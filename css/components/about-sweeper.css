@@ -1,0 +1,57 @@
+.swiper-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-top {
+  width: 100%;
+  margin-bottom: 54px;
+}
+
+.gallery-thumbs {
+  width: 360px;
+  padding-top: 10px;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+  transform: translateY(-10px);
+}
+
+.gallery-thumbs .swiper-wrapper {
+  width: 360px;
+}
+
+.swiper-custom-button {
+  position: absolute;
+  bottom: 116px;
+  width: 31px;
+  height: 31px;
+  color: #bbb;
+  border: 1px solid #bbb;
+  transition: background-color .2s linear, background-image .2s linear;
+  outline: none;
+  cursor: pointer;
+}
+
+.swiper-custom-button--left {
+  left: 354px;
+  background: center no-repeat url("../../img/icons/vector-left.svg");
+}
+
+.swiper-custom-button--right {
+  right: 354px;
+  background: center no-repeat url("../../img/icons/vector-right.svg");
+}
+
+.swiper-custom-button:hover {
+  background-color: var(--hallmark-color);
+}
+
+.swiper-custom-button--left:hover {
+  background-image: url("../../img/icons/vector-left-hover.svg");
+}
+
+.swiper-custom-button--right:hover {
+  background-image: url("../../img/icons/vector-right-hover.svg");
+}

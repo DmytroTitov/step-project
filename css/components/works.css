@@ -1,0 +1,133 @@
+.works-wrapper {
+  background-color: #e9edef;
+}
+
+.works {
+  padding-top: 94px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.works-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 71px;
+  list-style: none;
+}
+
+.works-item {
+  padding: 8px 15px;
+  font-size: 14px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #717171;
+  border: 1px solid #dadada;
+  transition: border-color .2s linear, color .2s linear;
+  cursor: pointer;
+}
+
+.works-item:first-child {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.works-item:hover {
+  color: var(--hallmark-color);
+  border-color: var(--hallmark-color);
+}
+
+.works-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 72px;
+  list-style: none;
+}
+
+.works-content__item {
+  position: relative;
+}
+
+.works-content__item--fade {
+  display: block;
+  animation: 1s fade-gallery linear;
+}
+
+.works-content__item--hidden {
+  display: none;
+}
+
+.works-content__item:hover .works-content__overlay {
+  opacity: 1;
+}
+
+.works-content__overlay {
+  opacity: 0;
+  padding: 42px 0 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #E9EDEF;
+  border-top: 2px solid var(--hallmark-color);
+  transition: opacity .2s linear;
+}
+
+.overlay-links-wrap {
+  margin-bottom: 33px;
+}
+
+.overlay-links {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border: 1px solid var(--hallmark-color);
+  border-radius: 50%;
+  transition: background-color .2s linear, background-image .2s linear;
+}
+
+.overlay-links--chain {
+  background: no-repeat center url("../../img/icons/chain.svg");
+}
+
+.overlay-links--square {
+  background: no-repeat center var(--hallmark-color) url("../../img/icons/square.svg");
+}
+
+.overlay-links--chain:hover {
+  background-image: url("../../img/icons/chain-hover.svg");
+  background-color: var(--hallmark-color);
+}
+
+.overlay-links--square:hover {
+  background-image: url("../../img/icons/square-hover.svg");
+  background-color: var(--light-color);
+}
+
+.overlay-title {
+  font-weight: var(--main-fw);
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--hallmark-color);
+}
+
+.overlay-category {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #8A8A8A;
+}
+
+@keyframes fade-gallery {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1 ;
+  }
+}

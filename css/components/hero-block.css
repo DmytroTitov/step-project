@@ -1,0 +1,38 @@
+.hero-block {
+  height: calc(100vh - 115px);
+  text-align: center;
+}
+
+.hero-subtitle {
+  display: inline-block;
+  font-weight: var(--main-fw);
+  font-size: 35px;
+  line-height: 1;
+  color: var(--light-color);
+  text-transform: uppercase;
+}
+
+.hero-subtitle--hallmark {
+  color: var(--hallmark-color);
+}
+
+.hero-title {
+  margin: 22px auto;
+  font-weight: var(--main-fw);
+  font-size: 78px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--light-color)
+}
+.hero-describe {
+  margin-bottom: 130px;
+  font-size: 34px;
+  line-height: 1;
+  color: #D4D4D4;
+  text-transform: capitalize;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
