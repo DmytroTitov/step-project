@@ -3,6 +3,7 @@
 @import "libs/normalize.css";
 @import "libs/common.css";
 @import "components/top-wrapper.css";
+@import "components/preloader.css";
 @import "components/buttons.css";
 @import "components/section-title.css";
 @import "components/site-header.css";
@@ -16,6 +17,7 @@
 @import "components/news.css";
 @import "components/about.css";
 @import "components/about-sweeper.css";
+@import "components/images.css";
 @import "components/site-footer.css";
 
 

@@ -15,6 +15,7 @@
 
 .about-title {
   color: var(--light-color);
+  text-transform: none;
 }
 
 .person-descr::before {

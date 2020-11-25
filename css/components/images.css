@@ -1,0 +1,46 @@
+.images {
+  padding-top: 107px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.images-title {
+  text-transform: none;
+}
+
+.grid {
+  margin: 0 auto 34px;
+
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item > img {
+  display: inline-block;
+  width: initial;
+}
+
+.grid-item--first > img,
+.grid-item--second > img {
+  margin-bottom: 20px;
+}
+
+.grid-item--third > img:nth-child(12n) {
+  margin-top: 20px;
+}
+
+.grid-item--third > img:nth-child(n + 12) {
+  margin-bottom: 20px;
+}
+
+.grid-item > .grid-item__img--fade {
+  display: inline-block;
+  animation: 1s fade-gallery linear;
+}
+
+.grid-item > .grid-item__img--hidden {
+  display: none;
+}

@@ -5,6 +5,35 @@
   background: transparent;
 }
 
+.search-link__svg {
+  fill: rgba(255%, 255%, 255%, .6);
+  transition: fill .2s linear;
+}
+
+.search-link:hover .search-link__svg {
+  fill: var(--hallmark-color);
+}
+
+.search-link:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-top: 46px;
+  opacity: 0;
+  background-color: var(--hallmark-color);
+  transition: opacity 0.2s linear;
+}
+
+.search-link:hover {
+  color: var(--hallmark-color);
+}
+
+.search-link:hover:after {
+  opacity: 1;
+}
+
 .link-btn {
   width: 165px;
   padding: 14px;
