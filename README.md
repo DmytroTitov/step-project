@@ -5,6 +5,6 @@
 **Simple landing whithout responsive**
 
 ### Working page:
-[Look to the landing](https://dmytrotitov.github.io/step-project/)
+[Look to the landing](https://dmytrotitov.github.io/theHAM-project/)
 
 
